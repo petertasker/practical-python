@@ -101,7 +101,7 @@ http://127.0.0.1:5000/api/invoice
 
 
 
-### 📤 Sending a Request
+### 📤 Sending a Request  
 You can test the API using the included example in [app_test.py](https://github.com/petertasker/practical-python/blob/master/invoice-generator/app_test.py).  
 Once the request is processed, a PDF invoice is generated and saved to your Downloads folder.
 ---
