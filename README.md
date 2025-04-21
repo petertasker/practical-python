@@ -102,7 +102,7 @@ This app will send you an SMS message of the next scheduled League of Legends es
 ### 📦 Dependencies
 For this, I used the [ClickSend](https://dashboard.clicksend.com/) SMS API to send messages. 
 
-You will either need to register with them and replace your credentials at the top of [app.py](https://github.com/petertasker/practical-python/blob/master/next-lol-game-box/app.py), or find another SMSing API.
+You will either need to register with them and replace your credentials at the top of [app.py](https://github.com/petertasker/practical-python/tree/master/sms-next-lol-game/app.py), or find another SMSing API.
 
 ```python
 CLICKSEND_USERNAME = "your_username"
@@ -129,7 +129,7 @@ Example JSON request:
 ```
 The `Body` element is optional, but it can be used to specify which league you want.
 
-You can use `send_sms` to send one for you, but you'll need to provide a number.
+You can use [send_sms.py](https://github.com/petertasker/practical-python/tree/master/sms-next-lol-game/app.py) to send a `POST` request for you, but you'll need to provide a number.
 
 
 🚧 *More Projects Coming Soon!* 🚧  
