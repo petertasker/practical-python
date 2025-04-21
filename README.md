@@ -112,7 +112,7 @@ CLICKSEND_API_KEY = "your_api_key"
 ### ▶️ Starting the Server
 
 ```bash
-py .\invoice-generator\app.py
+py .\sms-next-lol-game\app.py
 ```
 
 The server listens at:
@@ -131,6 +131,16 @@ The `Body` element is optional, but it can be used to specify which league you w
 
 You can use [send_sms.py](https://github.com/petertasker/practical-python/tree/master/sms-next-lol-game/app.py) to send a `POST` request for you, but you'll need to provide a number.
 
+## 📰 Article Summariser and Image generator
+
+This project takes a news article URL, generates a summarised version using a transformer model, and overlays that summary text onto cropped versions of the article's header image, formatted for vertical screens (1080x1920). It uses `newspaper3k` for scraping, Hugging Face Transformers for summarisation, and wand for image editing. Output images are saved with captions near the top and bottom, ready for mobile viewing or sharing.
+
+### 🐍 Running the program
+```python
+py .\article-story-generator\news_summary.py <article>
+```
+
+You will then find the output of your program in `.\article-summariser\output`
 
 🚧 *More Projects Coming Soon!* 🚧  
 Most projects (and the repo title) are inspired by [practicalpython.yasoob.me](https://practicalpython.yasoob.me)
