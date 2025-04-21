@@ -1,0 +1,5 @@
+transformers
+torch
+newspaper3k
+wand
+requests
