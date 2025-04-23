@@ -135,7 +135,10 @@ The `Body` element is optional, but it can be used to specify which league you w
 
 You can use [send_sms.py](https://github.com/petertasker/practical-python/tree/master/sms-next-lol-game/app.py) to send a `POST` request for you, but you'll need to provide a number.
 
-## 📰 Article Summariser and Image generator
+---
+
+
+## 📰 Project 4: Article Summariser and Image generator
 
 This project takes a news article URL, generates a summarised version using a transformer model, and overlays that summary text onto cropped versions of the article's header image, formatted for vertical screens (1080x1920). It uses `newspaper3k` for scraping, Hugging Face Transformers for summarisation, and wand for image editing. Output images are saved with captions near the top and bottom, ready for mobile viewing or sharing.
 
@@ -144,9 +147,13 @@ This project takes a news article URL, generates a summarised version using a tr
 py .\article-story-generator\news_summary.py <article>
 ```
 
-You will then find the output of your program in `.\article-summariser\output`
+You will then find the output of your program in `.\article-summariser\output`  
 
-## Project 5: History Location Visualiser
+
+---
+
+
+## 🌎 Project 5: History Location Visualiser
 
 This app will turn your browser history (or any file of domains) into an interactive map tool which shows the server locations that you are pinging to.
 
@@ -163,7 +170,7 @@ You will need to export your history from your browser into a text file.
 
 You need to save your file as `history-data.txt` and place it in `\practical-python\server-visualiser\`.
 
-After running the script, a `HTML` file will be generated which is your interactive map
+After running the script, a `HTML` file will be generated which is your interactive map  
 
 🚧 *More Projects Coming Soon!* 🚧  
 Most projects (and the repo title) are inspired by [practicalpython.yasoob.me](https://practicalpython.yasoob.me)
