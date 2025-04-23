@@ -136,7 +136,7 @@ You can use [send_sms.py](https://github.com/petertasker/practical-python/tree/m
 This project takes a news article URL, generates a summarised version using a transformer model, and overlays that summary text onto cropped versions of the article's header image, formatted for vertical screens (1080x1920). It uses `newspaper3k` for scraping, Hugging Face Transformers for summarisation, and wand for image editing. Output images are saved with captions near the top and bottom, ready for mobile viewing or sharing.
 
 ### 🐍 Running the program
-```python
+```bash
 py .\article-story-generator\news_summary.py <article>
 ```
 
