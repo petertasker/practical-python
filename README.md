@@ -14,7 +14,7 @@ Each game entry includes:
 
 ### 📦 Dependencies
 ```bash
-pip install -r requirements.txt
+pip install -r .\steam-scraper\requirements.txt
 ```
 
 ### ▶️ Running Locally
@@ -75,7 +75,7 @@ This project creates a downloadable PDF invoice from structured data sent via a 
 ### 📦 Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r .\invoice-generator\requirements.txt
 ```
 
 ### ▶️ Starting the Server
@@ -100,6 +100,10 @@ Once the request is processed, a PDF invoice is generated and saved to your Down
 This app will send you an SMS message of the next scheduled League of Legends esports game. You are able to specify which region you are after.
 
 ### 📦 Dependencies
+```bash
+pip install -r .\sms-next-lol-game\requirements.txt
+```
+
 For this, I used the [ClickSend](https://dashboard.clicksend.com/) SMS API to send messages. 
 
 You will either need to register with them and replace your credentials at the top of [app.py](https://github.com/petertasker/practical-python/tree/master/sms-next-lol-game/app.py), or find another SMSing API.
@@ -141,6 +145,25 @@ py .\article-story-generator\news_summary.py <article>
 ```
 
 You will then find the output of your program in `.\article-summariser\output`
+
+## Project 5: History Location Visualiser
+
+This app will turn your browser history (or any file of domains) into an interactive map tool which shows the server locations that you are pinging to.
+
+### 📦 Dependencies
+```bash
+pip install -r .\server-visualiser\requirements.txt
+```
+
+### Setup
+
+You will need to export your history from your browser into a text file. 
+* In Firefox, this can be done by going to `History` -> `Manage History` -> Selecting a time period, and then copy and pasting into a file
+* On chromium, you can try [https://chromewebstore.google.com/detail/export-chrome-history/dihloblpkeiddiaojbagoecedbfpifdj?hl=en](this extension) to export your history.
+
+You need to save your file as `history-data.txt` and place it in `\practical-python\server-visualiser\`.
+
+After running the script, a `HTML` file will be generated which is your interactive map
 
 🚧 *More Projects Coming Soon!* 🚧  
 Most projects (and the repo title) are inspired by [practicalpython.yasoob.me](https://practicalpython.yasoob.me)
