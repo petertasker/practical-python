@@ -166,7 +166,7 @@ pip install -r .\server-visualiser\requirements.txt
 
 You will need to export your history from your browser into a text file. 
 * In Firefox, this can be done by going to `History` -> `Manage History` -> Selecting a time period, and then copy and pasting into a file
-* On chromium, you can try [https://chromewebstore.google.com/detail/export-chrome-history/dihloblpkeiddiaojbagoecedbfpifdj?hl=en](this extension) to export your history.
+* On chromium, you can try [https://chromewebstore.google.com/detail/dihloblpkeiddiaojbagoecedbfpifdj?utm_source=item-share-cb](this extension) to export your history.
 
 You need to save your file as `history-data.txt` and place it in `\practical-python\server-visualiser\`.
 
