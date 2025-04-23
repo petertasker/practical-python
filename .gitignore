@@ -1,3 +1,5 @@
 .idea/**
 **/cropped/*.jpg
 **/output
+server-visualiser/interactive_ip_map.html
+server-visualiser/history-data.txt
