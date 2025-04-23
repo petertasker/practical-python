@@ -168,6 +168,8 @@ You will need to export your history from your browser into a text file.
 * In Firefox, this can be done by going to `History` -> `Manage History` -> Selecting a time period, and then copy and pasting into a file
 * On chromium, you can try [this extension](https://chromewebstore.google.com/detail/dihloblpkeiddiaojbagoecedbfpifdj?utm_source=item-share-cb)) to export your history.
 
+You will need to aquire a free API from [IP Info](https://ipinfo.io), and put it in the script.
+
 You need to save your file as `history-data.txt` and place it in `\practical-python\server-visualiser\`.
 
 After running the script, a `HTML` file will be generated which is your interactive map  
