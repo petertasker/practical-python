@@ -174,5 +174,4 @@ You need to save your file as `history-data.txt` and place it in `\practical-pyt
 
 After running the script, a `HTML` file will be generated which is your interactive map  
 
-🚧 *More Projects Coming Soon!* 🚧  
 Most projects (and the repo title) are inspired by [practicalpython.yasoob.me](https://practicalpython.yasoob.me)
